@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Trang Chủ Tạ Linh Chấm Com Hân Hạnh Chào 500 AE">
+    <meta name="author" content="TaLinhTV">
+    <meta name="keywords" content="ThanhDieu. Com, Vương Thanh Diệu, ThanhDieuTV, Thanh Diệu">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="shortcut icon" href="https://i.imgur.com/skowp8r.jpg" type="image/x-icon">
+    <title>TaLinh - HOME</title>
+    <link rel="stylesheet" href="./thanhdieuft-data/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pattaya|Potta One|Rowdies">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src='./thanhdieuft-data/js/jquery.min.js' type='text/javascript'></script>
+    <script src='./thanhdieuft-data/js/check-ip.js' type='text/javascript'></script>
+    <meta property="og:title" content="WELCOME TO TaLinh - HOME">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thanhdieu.com">
+    <meta property="og:image" content="https://i.imgur.com/skowp8r.jpg">
+    <meta name="theme-color" content="#00FFFF">
+</head>
+<div id="particles-js"></div>
+<section class="animated-background">
+    <div id="stars1"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+</section>
+
+<body onclick="audio.play()" class="Border" onLoad="onCreate()">
+    <div class="BlurWebs">
+        <div class="Topnav">
+            <!-- ===== Navigation Bar ===== -->
+            <a style="font-family: 'Concert One';" class="Active">HOME</a>
+            <a style="font-family: 'Concert One';" href="./team/index.html">TEAM</a>
+            <a style="font-family: 'Concert One';" href="./download/index.html">WEBSITE</a>
+            <a style="font-family: 'Concert One'; color:rgb(255, 0, 0);">
+    <span id="fps">60.0</span> FPS</a></div>
+        <br>
+        <p align="center">
+            <img class="Blob" src="https://i.imgur.com/A0MowXM.gif" width="120" height="120" alt="ThanhDieuTV"></p>
+            <br>
+        <h2 class="NameFtThanhDieu">
+            <div id="userName" style="font-family: 'Pattaya';">
+                Tạ Linh <img src="&#104;&#116;&#116;&#112;&#115;&colon;&sol;&sol;&#97;&#110;&#100;&#121;&#103;&#114;&#111;&#117;&#112;&period;&#118;&#110;&sol;&#119;&#112;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;&sol;&#117;&#112;&#108;&#111;&#97;&#100;&#115;&sol;&#50;&#48;&#50;&#48;&sol;&#48;&#50;&sol;&#116;&#105;&#99;&#104;&#45;&#120;&#97;&#110;&#104;&#45;&#105;&#99;&#111;&#110;&period;&#112;&#110;&#103;"
+                    width="15" height="15" alt="Tích Xanh">
+            </div>
+            <br>
+        </h2>
+        <h2 class="TieuSu" style="font-family: 'Potta One';">
+           Chào Mừng Mọi Người Đã Đến Với Website Của Tạ Linh !<br>
+        <br>
+        <strong style="color: rgb(255, 238, 0); font-size: 16px; font-family: 'Rowdies';"> Địa Chỉ: <a id="checkip_address">Loading...</a><br></strong>
+      </div>
+            <div class="MangXaHoiFtThanhDieu">
+                <h2 class="NameFtThanhDieu">Social Network</h2> <br>
+                <a id="Tiktok" onClick="Tiktok()">
+                    <div class="Tiktok"> <i class="bi bi-tiktok">&nbsp;</i> Tiktok</div>
+                </a>
+                <br>
+                <a id="Facebook" onClick="Facebook()">
+                    <div class="Facebook"> <i class="bi bi-facebook">&nbsp;</i> Facebook</div>
+                </a>
+                <br>
+                <a id="Discord" onClick="Discord()">
+                    <div class="Discord"><i class='bi bi-discord'>&nbsp; </i> YouTube</div>
+                </a>
+                <br>
+                <a id="Telegram" onClick="Telegram()">
+                    <div class="Telegram"><i class="bi bi-telegram">&nbsp;</i> Telegram</div>
+                </a>
+                <br>
+            </div>
+            <br> <br>
+            <hr class="New">
+            <br>
+            <br>
+
+        </div>
+        <script>
+            function CopyToClipboard(id) {
+                var r = document.createRange();
+                r.selectNode(document.getElementById(id));
+                window.getSelection().removeAllRanges();
+                window.getSelection().addRange(r);
+                document.execCommand('copy');
+                window.getSelection().removeAllRanges();
+            }
+        </script>
+        <!--<h2 class="NameFtThanhDieu">About Me</h2>-->
+        <footer class="Cuoi Trang">
+            <p class="ThanhDieuFtCopyright">
+                <p1 class="rainbow italic" class="copyright">Created By
+                    <a style="text-decoration: none;" class="copyright" href="https://www.facebook.com/PT100076936845739">
+                        <font class="rainbow" color="white"> Tạ Linh</font>
+                    </a>
+                    <br> <strong>All Rights Reserved - © 2023 </strong>
+                </p1>
+        </footer>
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        var fps = document.getElementById("fps");
+        var startTime = Date.now();
+        var frame = 0;
+
+        function tick() {
+            var time = Date.now();
+            frame++;
+            if (time - startTime > 1000) {
+                fps.innerHTML = (frame / ((time - startTime) / 1000)).toFixed(1);
+                startTime = time;
+                frame = 0;
+            }
+            window.requestAnimationFrame(tick);
+        }
+        tick();
+    </script>
+    </div>
+    <script>
+        const TEST_AUDIO =
+            "file:///C:/Users/linht/Downloads/Anh-Ghet-Lam-Ban-Em-_Remix_.mp3";
+        const audio = new Audio(TEST_AUDIO);
+        console.log(audio);
+        audio.addEventListener("loadedmetadata", () => {
+            console.log(audio.duration);
+            console.log(audio.currentTime);
+        });
+        const a = audio.addEventListener("timeupdate", () => {
+            // console.log("time:", audio.currentTime);
+        });
+        console.log("a:", a);
+        audio.play();
+
+        $('.skill-per').each(function() {
+            var $this = $(this);
+            var per = $this.attr('per');
+            $this.css("width", per + '%');
+            $({
+                animatedValue: 0
+            }).animate({
+                animatedValue: per
+            }, {
+                duration: 12000,
+                step: function() {
+                    $this.attr('per', Math.floor(this.animatedValue) + '%');
+                },
+                complete: function() {
+                    $this.attr('per', Math.floor(this.animatedValue) + '%');
+                }
+            });
+        });
+    </script>
+    </div>
+    <script src="./thanhdieuft-data/js/particles.js"></script>
+    <script src="./thanhdieuft-data/js/app.js"></script>
+    <script type="text/javascript" src="./thanhdieuft-data/js/index.js"></script>
+</body>
+
+</html>
