@@ -1,0 +1,37 @@
+[24-May-2023 11:43:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 364
+[24-May-2023 11:43:59 UTC] PHP Warning:  Undefined array key 1 in /home/hrx1684063313/public_html/test/spamv2.php on line 381
+[24-May-2023 11:43:59 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/hrx1684063313/public_html/test/spamv2.php on line 381
+[24-May-2023 11:43:59 UTC] PHP Warning:  Undefined array key "error" in /home/hrx1684063313/public_html/test/spamv2.php on line 393
+[24-May-2023 11:43:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 420
+[24-May-2023 11:44:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 438
+[24-May-2023 11:44:02 UTC] PHP Warning:  Undefined array key 0 in /home/hrx1684063313/public_html/test/spamv2.php on line 475
+[24-May-2023 11:44:07 UTC] PHP Warning:  Undefined array key "error" in /home/hrx1684063313/public_html/test/spamv2.php on line 575
+[24-May-2023 11:44:09 UTC] PHP Warning:  Undefined variable $error in /home/hrx1684063313/public_html/test/spamv2.php on line 64
+[24-May-2023 11:44:09 UTC] PHP Warning:  Undefined variable $dem in /home/hrx1684063313/public_html/test/spamv2.php on line 67
+[24-May-2023 11:44:17 UTC] PHP Warning:  Undefined array key "data" in /home/hrx1684063313/public_html/test/spamv2.php on line 247
+[24-May-2023 11:44:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 247
+[24-May-2023 11:44:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 364
+[24-May-2023 11:44:19 UTC] PHP Warning:  Undefined array key 1 in /home/hrx1684063313/public_html/test/spamv2.php on line 381
+[24-May-2023 11:44:19 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/hrx1684063313/public_html/test/spamv2.php on line 381
+[24-May-2023 11:44:19 UTC] PHP Warning:  Undefined array key "error" in /home/hrx1684063313/public_html/test/spamv2.php on line 393
+[24-May-2023 11:44:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 420
+[24-May-2023 11:44:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 438
+[24-May-2023 11:44:22 UTC] PHP Warning:  Undefined array key 0 in /home/hrx1684063313/public_html/test/spamv2.php on line 475
+[24-May-2023 11:44:27 UTC] PHP Warning:  Undefined array key "error" in /home/hrx1684063313/public_html/test/spamv2.php on line 575
+[24-May-2023 11:44:29 UTC] PHP Warning:  Undefined array key "meta" in /home/hrx1684063313/public_html/test/spamv2.php on line 835
+[24-May-2023 11:44:30 UTC] PHP Warning:  Undefined array key "data" in /home/hrx1684063313/public_html/test/spamv2.php on line 840
+[24-May-2023 11:44:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 840
+[24-May-2023 11:44:30 UTC] PHP Warning:  Undefined variable $error in /home/hrx1684063313/public_html/test/spamv2.php on line 64
+[24-May-2023 11:44:30 UTC] PHP Warning:  Undefined variable $dem in /home/hrx1684063313/public_html/test/spamv2.php on line 67
+[24-May-2023 11:44:37 UTC] PHP Warning:  Undefined array key "data" in /home/hrx1684063313/public_html/test/spamv2.php on line 247
+[24-May-2023 11:44:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 247
+[24-May-2023 11:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 364
+[24-May-2023 11:44:39 UTC] PHP Warning:  Undefined array key 1 in /home/hrx1684063313/public_html/test/spamv2.php on line 381
+[24-May-2023 11:44:39 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/hrx1684063313/public_html/test/spamv2.php on line 381
+[24-May-2023 11:44:39 UTC] PHP Warning:  Undefined array key "error" in /home/hrx1684063313/public_html/test/spamv2.php on line 393
+[24-May-2023 11:44:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 420
+[24-May-2023 11:44:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hrx1684063313/public_html/test/spamv2.php on line 438
+[24-May-2023 11:44:41 UTC] PHP Warning:  Undefined array key 0 in /home/hrx1684063313/public_html/test/spamv2.php on line 475
+[24-May-2023 11:44:47 UTC] PHP Warning:  Undefined array key "error" in /home/hrx1684063313/public_html/test/spamv2.php on line 575
+[24-May-2023 11:44:49 UTC] PHP Warning:  Undefined variable $error in /home/hrx1684063313/public_html/test/spamv2.php on line 64
+[24-May-2023 11:44:49 UTC] PHP Warning:  Undefined variable $dem in /home/hrx1684063313/public_html/test/spamv2.php on line 72
